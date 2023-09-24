@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -23,12 +23,34 @@ h6 {
 img {
   width: 100%;
 }
+.skip-links {
+  list-style: none;
+  display: flex;  
+  
+ 
+}
+
+.skip-links li a{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+ 
+}
+.skip-links li a:focus{
+  top: 0;
+}
+
 
 .main-nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin-bottom: 30px;
   padding: 0;
 }
 
@@ -69,3 +91,5 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+  
